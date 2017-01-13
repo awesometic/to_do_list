@@ -30,14 +30,11 @@ namespace _15_1_DB_Project
             try
             {
                 myConnection.ConnectionString = @"
-                    Data Source=" +
-                                    "localhost"         // 노트북 -> 노트북
-                                    //"192.168.0.6"       // 집 컴퓨터 -> 노트북
-                                    //"219.240.19.131"    // 외부 -> 노트북
+                    Data Source=219.240.6.172"
                     + "; Port=" + "5555"
-                    + "; Database=" + "db_project_todolist"
-                    + "; User Id=" + "YDG_DB_PROJECT"
-                    + "; Password=" + "11050038"
+                    + "; Database=" + "todolist"
+                    + "; User Id=" + "awesometic"
+                    + "; Password=" + "awesometic"
                     + "; Allow User Variables=True"
                     ;
                 myConnection.Open();
