@@ -149,7 +149,7 @@ namespace _15_1_DB_Project
          * row의 인덱스를 0부터 하여 첫 번째 레코드(myReader[0])를 columnName을 이용해 그대로 rowList[0](첫 번째 레코드)로 넣음
          * 따라서 rowList[0](첫 번째 레코드)의 첫 요소는 columnName으로 구분된 Dictionary
          * 예) 필드 이름이 F1, F2, F3 이고 총 레코드 수가 3이라면 그 rowList의 각 요소(Dictionary) 안의 각 키값들은 
-         * 첫 번째 레코드(rowList[0])의 경우 F1+0, F2+0, F3+0, 두 번째 레코드(rowList[1])의 경우 F2+1, F2+1, F3+1, ...
+         * 첫 번째 레코드(rowList[0])의 경우 F1+0, F2+0, F3+0, 두 번째 레코드(rowList[1])의 경우 F1+1, F2+1, F3+1, ...
          * rowList의 각 요소는 Dictionary 이므로 F1+0 등 각 키에 대한 값 또한 같이 저장됨 */
         public List<Dictionary<string, string>> commandMySQL(string query)
         {
